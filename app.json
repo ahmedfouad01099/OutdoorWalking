@@ -1,28 +1,36 @@
 {
   "expo": {
-    "name": "outdoor-walking",
-    "slug": "outdoor-walking",
+    "name": "Outdoorwalking",
+    "slug": "Outdoorwalking",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_launcher.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/appstore.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahmedfouad225.outdoorwalking",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC5TffsF_f1x25wnXy529XIJSUu7BfygJM"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ic_launcher.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ahmedfouad225.outdoorwalking",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAZrkXXdfHNgfDHwduQHyX2j15ccVaj7pY"
+        }
       }
     },
     "web": {
